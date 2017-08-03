@@ -12,4 +12,5 @@
 #
 
 class Card < ApplicationRecord
+    has_many :tags
 end

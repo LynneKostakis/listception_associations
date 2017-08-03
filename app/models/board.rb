@@ -10,4 +10,6 @@
 #
 
 class Board < ApplicationRecord
+
+    has_many :cards, :through => :lists
 end
